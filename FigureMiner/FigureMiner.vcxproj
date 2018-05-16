@@ -30,27 +30,27 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -93,6 +93,9 @@
     <Link>
       <SubSystem>Console</SubSystem>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /r /y "$(ProjectDir)Assets" "$(OutDir)Assets\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -105,6 +108,9 @@
     <Link>
       <SubSystem>Console</SubSystem>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /r /y "$(ProjectDir)Assets" "$(OutDir)Assets\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -121,6 +127,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /r /y "$(ProjectDir)Assets" "$(OutDir)Assets\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -137,8 +146,125 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /r /y "$(ProjectDir)Assets" "$(OutDir)Assets\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="EasyXPng\EasyXPng.h" />
+    <ClInclude Include="EasyXPng\ImageEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EasyXPng\EasyXPng.cpp" />
+    <ClCompile Include="EasyXPng\ImageEx.cpp" />
+    <ClCompile Include="FigureMiner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Background\Background1.jpg" />
+    <Image Include="Assets\Background\Background2.jpg" />
+    <Image Include="Assets\Background\Background3.jpg" />
+    <Image Include="Assets\Background\Background4.jpg" />
+    <Image Include="Assets\Background\Background5.jpg" />
+    <Image Include="Assets\button\button1.png" />
+    <Image Include="Assets\button\button10.png" />
+    <Image Include="Assets\button\button11.png" />
+    <Image Include="Assets\button\button2.png" />
+    <Image Include="Assets\button\button3.png" />
+    <Image Include="Assets\button\button4.png" />
+    <Image Include="Assets\button\button5.png" />
+    <Image Include="Assets\button\button6.png" />
+    <Image Include="Assets\button\button7.png" />
+    <Image Include="Assets\button\button8.png" />
+    <Image Include="Assets\button\button9.png" />
+    <Image Include="Assets\GeneralSets\Catcher.png" />
+    <Image Include="Assets\GeneralSets\Choose.png" />
+    <Image Include="Assets\GeneralSets\Continue.png" />
+    <Image Include="Assets\GeneralSets\Exit.png" />
+    <Image Include="Assets\GeneralSets\Fail.png" />
+    <Image Include="Assets\GeneralSets\Library.png" />
+    <Image Include="Assets\GeneralSets\Mark.png" />
+    <Image Include="Assets\GeneralSets\miner.png" />
+    <Image Include="Assets\GeneralSets\Next.png" />
+    <Image Include="Assets\GeneralSets\next_stage.png" />
+    <Image Include="Assets\GeneralSets\Rank.png" />
+    <Image Include="Assets\GeneralSets\Retry.png" />
+    <Image Include="Assets\GeneralSets\return1.png" />
+    <Image Include="Assets\GeneralSets\return2.png" />
+    <Image Include="Assets\GeneralSets\Turn.png" />
+    <Image Include="Assets\GeneralSets\Victory.png" />
+    <Image Include="Assets\GeneralSets\Win.png" />
+    <Image Include="Assets\images\L_1_v2.png" />
+    <Image Include="Assets\images\L_2_1.png" />
+    <Image Include="Assets\images\L_2_2.png" />
+    <Image Include="Assets\images\L_2_3.png" />
+    <Image Include="Assets\images\L_3_1.png" />
+    <Image Include="Assets\images\L_3_2.png" />
+    <Image Include="Assets\images\L_3_3.png" />
+    <Image Include="Assets\images\L_3_v2.png" />
+    <Image Include="Assets\images\L_4_1.png" />
+    <Image Include="Assets\images\L_4_2.png" />
+    <Image Include="Assets\images\L_4_3.png" />
+    <Image Include="Assets\images\L_5_1.png" />
+    <Image Include="Assets\images\L_5_2.png" />
+    <Image Include="Assets\images\L_5_3.png" />
+    <Image Include="Assets\images\L_NULL_2.png" />
+    <Image Include="Assets\images\L_sp_1.jpg" />
+    <Image Include="Assets\images\s_2_1.png" />
+    <Image Include="Assets\images\s_2_2.png" />
+    <Image Include="Assets\images\s_2_3.png" />
+    <Image Include="Assets\images\s_2_4.png" />
+    <Image Include="Assets\images\s_2_5.png" />
+    <Image Include="Assets\images\s_3_1.png" />
+    <Image Include="Assets\images\s_3_2.png" />
+    <Image Include="Assets\images\s_3_3.png" />
+    <Image Include="Assets\images\s_3_4.png" />
+    <Image Include="Assets\images\s_3_5.png" />
+    <Image Include="Assets\images\s_4_1.png" />
+    <Image Include="Assets\images\s_4_2.png" />
+    <Image Include="Assets\images\s_4_3.png" />
+    <Image Include="Assets\images\s_4_4.png" />
+    <Image Include="Assets\images\s_4_5.png" />
+    <Image Include="Assets\images\s_5_1.png" />
+    <Image Include="Assets\images\s_5_2.png" />
+    <Image Include="Assets\images\s_5_3.png" />
+    <Image Include="Assets\images\s_5_4.png" />
+    <Image Include="Assets\images\s_5_5.png" />
+    <Image Include="Assets\images\s_A_1_v2.png" />
+    <Image Include="Assets\images\s_B_1_v2.png" />
+    <Image Include="Assets\images\s_D_2_v2.png" />
+    <Image Include="Assets\images\s_F_1_v2.png" />
+    <Image Include="Assets\images\s_G_1_v2.png" />
+    <Image Include="Assets\Welcome\Enter.jpg" />
+    <Image Include="Assets\Welcome\Enter1.jpg" />
+    <Image Include="Assets\Welcome\OK0.png" />
+    <Image Include="Assets\Welcome\OK1.png" />
+    <Image Include="Assets\Welcome\OK2.png" />
+    <Image Include="Assets\Welcome\START0.jpg" />
+    <Image Include="Assets\Welcome\START1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\config\1.ini" />
+    <None Include="Assets\config\2.ini" />
+    <None Include="Assets\config\3.ini" />
+    <None Include="Assets\config\4.ini" />
+    <None Include="Assets\config\5.ini" />
+    <None Include="Assets\config\Source.ini" />
+    <None Include="Assets\images\取所有文件路径.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\images\list.txt" />
+    <Text Include="Assets\record\1.txt" />
+    <Text Include="Assets\record\2.txt" />
+    <Text Include="Assets\record\3.txt" />
+    <Text Include="Assets\record\4.txt" />
+    <Text Include="Assets\record\5.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\music\1.mp3" />
+    <Media Include="Assets\music\2.mp3" />
+    <Media Include="Assets\music\3.mp3" />
+    <Media Include="Assets\music\4.mp3" />
+    <Media Include="Assets\music\5.mp3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

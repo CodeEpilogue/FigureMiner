@@ -13,5 +13,362 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\EasyXPng">
+      <UniqueIdentifier>{df86c066-4d75-40cf-a10e-f61748815804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\EasyXPng">
+      <UniqueIdentifier>{7e8d6840-f6cf-4c50-9fec-72ed484143a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets">
+      <UniqueIdentifier>{01b5f19e-775b-459f-a155-364dff71a632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\Background">
+      <UniqueIdentifier>{aa14d5af-10d6-4f4e-b0b7-77a51dbf6229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\button">
+      <UniqueIdentifier>{d682d7ac-17fa-4dd2-be76-39ba3971882b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\config">
+      <UniqueIdentifier>{965e13b0-9ebc-42a8-9f4c-35264cc186ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\GeneralSets">
+      <UniqueIdentifier>{fedf693e-3c2f-4b1d-a5cb-a1b11a9de861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\images">
+      <UniqueIdentifier>{32026696-b4d6-437c-a773-1bf9d9a771b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\music">
+      <UniqueIdentifier>{a853d501-5e0d-4449-8671-1c0178917ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\record">
+      <UniqueIdentifier>{981e8437-e906-4f76-a86d-d2205996f0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assets\Welcome">
+      <UniqueIdentifier>{7cfe81d0-5ee4-4a7f-ada0-6706b4143b1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyXPng\EasyXPng.h">
+      <Filter>头文件\EasyXPng</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyXPng\ImageEx.h">
+      <Filter>头文件\EasyXPng</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FigureMiner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyXPng\EasyXPng.cpp">
+      <Filter>源文件\EasyXPng</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyXPng\ImageEx.cpp">
+      <Filter>源文件\EasyXPng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Background\Background1.jpg">
+      <Filter>资源文件\Assets\Background</Filter>
+    </Image>
+    <Image Include="Assets\Background\Background3.jpg">
+      <Filter>资源文件\Assets\Background</Filter>
+    </Image>
+    <Image Include="Assets\Background\Background4.jpg">
+      <Filter>资源文件\Assets\Background</Filter>
+    </Image>
+    <Image Include="Assets\Background\Background5.jpg">
+      <Filter>资源文件\Assets\Background</Filter>
+    </Image>
+    <Image Include="Assets\Background\Background2.jpg">
+      <Filter>资源文件\Assets\Background</Filter>
+    </Image>
+    <Image Include="Assets\button\button1.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button2.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button3.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button4.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button5.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button6.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button7.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button8.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button9.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button10.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\button\button11.png">
+      <Filter>资源文件\Assets\button</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Catcher.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Choose.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Continue.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Exit.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Fail.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Library.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Mark.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\miner.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Next.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\next_stage.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Rank.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Retry.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\return1.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\return2.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Turn.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Victory.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\GeneralSets\Win.png">
+      <Filter>资源文件\Assets\GeneralSets</Filter>
+    </Image>
+    <Image Include="Assets\images\L_1_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_2_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_2_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_2_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_3_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_3_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_3_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_3_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_4_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_4_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_4_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_5_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_5_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_5_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_NULL_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\L_sp_1.jpg">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_2_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_2_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_2_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_2_4.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_2_5.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_3_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_3_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_3_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_3_4.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_3_5.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_4_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_4_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_4_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_4_4.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_4_5.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_5_1.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_5_2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_5_3.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_5_4.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_5_5.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_A_1_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_B_1_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_D_2_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_F_1_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\s_G_1_v2.png">
+      <Filter>资源文件\Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\Enter.jpg">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\Enter1.jpg">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\OK0.png">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\OK1.png">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\OK2.png">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\START0.jpg">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+    <Image Include="Assets\Welcome\START1.jpg">
+      <Filter>资源文件\Assets\Welcome</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\config\2.ini">
+      <Filter>资源文件\Assets\config</Filter>
+    </None>
+    <None Include="Assets\config\3.ini">
+      <Filter>资源文件\Assets\config</Filter>
+    </None>
+    <None Include="Assets\config\4.ini">
+      <Filter>资源文件\Assets\config</Filter>
+    </None>
+    <None Include="Assets\config\5.ini">
+      <Filter>资源文件\Assets\config</Filter>
+    </None>
+    <None Include="Assets\config\Source.ini">
+      <Filter>资源文件\Assets\config</Filter>
+    </None>
+    <None Include="Assets\config\1.ini">
+      <Filter>资源文件\Assets\config</Filter>
+    </None>
+    <None Include="Assets\images\取所有文件路径.cmd">
+      <Filter>资源文件\Assets\images</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\images\list.txt">
+      <Filter>资源文件\Assets\images</Filter>
+    </Text>
+    <Text Include="Assets\record\3.txt">
+      <Filter>资源文件\Assets\record</Filter>
+    </Text>
+    <Text Include="Assets\record\4.txt">
+      <Filter>资源文件\Assets\record</Filter>
+    </Text>
+    <Text Include="Assets\record\5.txt">
+      <Filter>资源文件\Assets\record</Filter>
+    </Text>
+    <Text Include="Assets\record\1.txt">
+      <Filter>资源文件\Assets\record</Filter>
+    </Text>
+    <Text Include="Assets\record\2.txt">
+      <Filter>资源文件\Assets\record</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\music\1.mp3">
+      <Filter>资源文件\Assets\music</Filter>
+    </Media>
+    <Media Include="Assets\music\2.mp3">
+      <Filter>资源文件\Assets\music</Filter>
+    </Media>
+    <Media Include="Assets\music\3.mp3">
+      <Filter>资源文件\Assets\music</Filter>
+    </Media>
+    <Media Include="Assets\music\4.mp3">
+      <Filter>资源文件\Assets\music</Filter>
+    </Media>
+    <Media Include="Assets\music\5.mp3">
+      <Filter>资源文件\Assets\music</Filter>
+    </Media>
   </ItemGroup>
 </Project>
